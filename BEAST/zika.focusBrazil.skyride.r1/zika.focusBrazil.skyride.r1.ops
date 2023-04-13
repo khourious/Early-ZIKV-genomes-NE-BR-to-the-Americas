@@ -1,0 +1,56 @@
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) Smoothed_Pr(accept)
+scale(noncoding.kappa)                            0.321   2824239    2239363  0.79     0.2339      0.27        
+deltaExchange(noncoding.frequencies)              0.098   2828210    2242283  0.79     0.2342      0.29        
+scale(noncoding.alpha)                            0.093   2827947    2225457  0.79     0.234       0.24        
+scale(coding.CP1.kappa)                           0.355   2826900    3585526  1.27     0.2341      0.23        
+scale(coding.CP2.kappa)                           0.299   2827230    3564805  1.26     0.2338      0.22        
+scale(coding.CP3.kappa)                           0.552   2826813    5082965  1.8      0.2341      0.27        
+deltaExchange(coding.CP1.frequencies)             0.04    2826366    3585225  1.27     0.234       0.25        
+deltaExchange(coding.CP2.frequencies)             0.039   2827285    3563833  1.26     0.2342      0.26        
+deltaExchange(coding.CP3.frequencies)             0.03    2826659    5082119  1.8      0.2341      0.18        
+scale(coding.CP1.alpha)                           0.139   2826120    3553589  1.26     0.2339      0.22        
+scale(coding.CP2.alpha)                           0.153   2827869    3542016  1.25     0.234       0.2         
+scale(coding.CP3.alpha)                           0.434   2826719    5070226  1.79     0.2338      0.29        
+scale(default.ucld.mean)                          0.858   8481751    33363198 3.93     0.234       0.16        
+scale(default.ucld.stdev)                         0.549   8484831    33229392 3.92     0.234       0.28        
+up:nodeHeights(treeModel) down:default.ucld.mean  0.98    8481613    24390808 2.88     0.234       0.26        
+swapOperator(default.branchRates.categories)              28255364   21993962 0.78     0.6378      0.7         
+uniformInteger(default.branchRates.categories)            28266594   17763372 0.63     0.7458      0.79        
+deltaExchange(default.allNus)                     0.052   8478924    19460156 2.3      0.2341      0.24        
+scale(location.clock.rate)                        0.389   8473527    16106567 1.9      0.234       0.24        
+up:nodeHeights(treeModel) down:location.clock.rate 0.98    8482321    24375811 2.87     0.2339      0.25        
+subtreeSlide(treeModel)                           0.19    84811211   74739394 0.88     0.234       0.15        
+Narrow Exchange(treeModel)                                84822270   57223202 0.67     0.2688      0.3         
+Wide Exchange(treeModel)                                  8484172    3898453  0.46     0.0025      0.0         
+wilsonBalding(treeModel)                                  8480767    9533833  1.12     0.0069      0.02        
+scale(treeModel.rootHeight)                       0.104   8479418    7510871  0.89     0.234       0.32        
+uniform(nodeHeights(treeModel))                           84813889   86654634 1.02     0.3361      0.26        
+gmrfBlockUpdateOperator                           3.102   5652432    1084414  0.19     0.2328      0.23        
+scale(location.rates)                             0.891   42399632   49687516 1.17     0.2292      0.25        
+bitFlip(location.indicators)                              19792691   24241034 1.22     0.0565      0.08        
+deltaExchange(location.root.frequencies)          0.28    2825697    1316624  0.47     0.234       0.29        
+uniform(age(KU758877_FrenchGuiana_2015-12))               141613     148110   1.05     0.9759      0.99        
+uniform(age(KX520666_Northeast_Bahia_Salvador_2015-08))        141938     146356   1.03     0.8705      0.82        
+uniform(age(KX879603_Ecuador_2016-04))                    141734     146577   1.03     0.8689      0.8         
+uniform(age(KX879604_Ecuador_2016-04))                    142167     148242   1.04     0.9387      0.91        
+uniform(age(KY003153_Northeast_2016-04))                  141578     139010   0.98     0.9415      0.93        
+uniform(age(KY003154_Northeast_2016-04))                  141529     139290   0.98     0.9171      0.95        
+uniform(age(KY559028_Southeast_RioDeJaneiro_2016-01))        141242     152909   1.08     0.9588      0.96        
+uniform(age(KY559030_Southeast_RioDeJaneiro_2016-01))        141467     144059   1.02     0.9788      0.94        
+uniform(age(KY559031_Southeast_RioDeJaneiro_2016-01))        141193     143062   1.01     0.9646      0.93        
+uniform(age(KY559032_Southeast_RioDeJaneiro_2016-01))        141240     139224   0.99     0.9753      0.99        
+uniform(age(KY817930_Southeast_RioDeJaneiro_2016-01))        141082     152561   1.08     0.9706      0.94        
+uniform(age(MH675619_PuertoRico_2016-05))                 141007     156022   1.11     0.9436      0.94        
+uniform(age(MH675620_PuertoRico_2016-05))                 141313     154428   1.09     0.9703      1.0         
+uniform(age(MH675621_PuertoRico_2016-05))                 141571     152336   1.08     0.9588      0.97        
+uniform(age(MH675622_PuertoRico_2016-06))                 141132     151491   1.07     0.9719      0.99        
+uniform(age(MH675623_PuertoRico_2016-06))                 141250     160694   1.14     0.9146      0.86        
+uniform(age(MH675624_PuertoRico_2016-06))                 141147     154782   1.1      0.9611      0.95        
+uniform(age(MH675625_PuertoRico_2016-08))                 141403     155092   1.1      0.9623      0.92        
+uniform(age(MH675626_PuertoRico_2016-08))                 141662     160004   1.13     0.9302      0.92        
+uniform(age(MH675627_PuertoRico_2016-08))                 140665     160786   1.14     0.9617      0.97        
+uniform(age(MH675628_PuertoRico_2016-08))                 141198     157116   1.11     0.9158      0.89        
+uniform(age(MN473454_Panama_2016))                        141408     141982   1.0      0.7145      0.73        
+
