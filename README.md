@@ -1,3 +1,3 @@
-# Analyses of Early ZIKV Genomes are Consistent with Viral Spread from Northeast Brazil to The Americas
+# Analyses of Early ZIKV Genomes Are Consistent with Viral Spread from Northeast Brazil to the Americas
 
 de Moraes L, Portilho MM, Vrancken B, Van den Broeck F, Santos LA, Cucco M, Tauro LB, Kikuti M, Silva MMO, Campos GS, Reis MG, Barral A, Barral-Netto M, Boaventura VS, Vandamme AM, Theys K, Lemey P, Ribeiro GS, Khouri R. **Analyses of Early ZIKV Genomes Are Consistent with Viral Spread from Northeast Brazil to the Americas**. Viruses. 2023 May 25;15(6):1236. doi: [10.3390/v15061236](https://doi.org/10.3390/v15061236). PMID: [37376536](https://pubmed.ncbi.nlm.nih.gov/37376536/); PMCID: [PMC10301521](https://pmc.ncbi.nlm.nih.gov/articles/PMC10301521/).
